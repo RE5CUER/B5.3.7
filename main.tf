@@ -9,8 +9,8 @@ terraform {
 
 provider "yandex" {
   service_account_key_file = "./authorized_key.json"  # Указание пути к вашему сервисному ключу
-  cloud_id  = "b1grqh71vdqnc524jnl2"  # Ваш Cloud ID
-  folder_id = "b1g7k2ksqp16q3ae0mcb"  # Ваш Folder ID
+  cloud_id  = "123"  # Ваш Cloud ID
+  folder_id = "123"  # Ваш Folder ID
   zone      = "ru-central1-a"   # Укажите зону
 }
 
